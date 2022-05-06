@@ -1981,7 +1981,7 @@ void Notepad_plus::command(int id)
 			break;
 
 		case IDM_VIEW_TOGGLE_CURRENT:
-			_pEditView->toggleFoldCurrent();
+			_pEditView->toggleCurrentFold();
 			break;
 
 		case IDM_VIEW_TOGGLE_FOLDALL:
